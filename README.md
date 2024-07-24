@@ -97,7 +97,7 @@ python3 -m torch.distributed.launch --nproc_per_node=4 train.py --config path/to
 # Geometry modeling. 
 python3 train.py --config path/to/your/config_geo/file
 # Appearance modeling.
-python3  train.py --config path/to/your/config_geo/file
+python3  train.py --config path/to/your/config_app/file
 ```
 
 ## Acknowledgement
